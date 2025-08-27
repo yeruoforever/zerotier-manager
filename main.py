@@ -179,7 +179,7 @@ if __name__ == "__main__":
                 )
             )
         else:
-            print("Usage: authorize <network_id> <member_id>")
+            print("Usage: deauthorize <network_id> <member_id>")
 
     elif cmd == "delete":
         if len(argv) == 3:
