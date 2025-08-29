@@ -150,7 +150,7 @@ if __name__ == "__main__":
             member_id = argv[2]
             print(
                 json.dumps(
-                    authorize_member(api_url, authtoken, network_id, member_id, True),
+                    show_member(api_url, authtoken, network_id, member_id),
                     indent=2,
                 )
             )
